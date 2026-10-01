@@ -1,0 +1,45 @@
+2025-08-21T12:07:44.013+05:30  INFO 25852 --- [test-reactive-spring] [main] c.e.t.TestReactiveSpringApplication      : Starting TestReactiveSpringApplication using Java 17.0.12 with PID 25852 (C:\Users\Satheesh.Dharmalinga\OneDrive - InfoVision, Inc\SATHEESHD\WORKSPACE\test-reactive-spring\target\classes started by Satheesh.Dharmalinga in C:\Users\Satheesh.Dharmalinga\OneDrive - InfoVision, Inc\SATHEESHD\WORKSPACE\test-reactive-spring)
+2025-08-21T12:07:44.017+05:30  INFO 25852 --- [test-reactive-spring] [main] c.e.t.TestReactiveSpringApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-21T12:07:44.641+05:30  INFO 25852 --- [test-reactive-spring] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-08-21T12:07:44.781+05:30  INFO 25852 --- [test-reactive-spring] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 135 ms. Found 1 R2DBC repository interface.
+2025-08-21T12:07:46.480+05:30  INFO 25852 --- [test-reactive-spring] [main] efaultSchemaResourceGraphQlSourceBuilder : Loaded 1 resource(s) in the GraphQL schema.
+2025-08-21T12:07:46.690+05:30  INFO 25852 --- [test-reactive-spring] [main] o.s.b.a.g.GraphQlAutoConfiguration       : GraphQL schema inspection:
+	Unmapped fields: {}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2025-08-21T12:07:46.704+05:30  INFO 25852 --- [test-reactive-spring] [main] .b.a.g.r.GraphQlWebFluxAutoConfiguration : GraphQL endpoint HTTP POST /graphql
+2025-08-21T12:07:47.166+05:30  INFO 25852 --- [test-reactive-spring] [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080 (http)
+2025-08-21T12:07:47.189+05:30  INFO 25852 --- [test-reactive-spring] [main] c.e.t.TestReactiveSpringApplication      : Started TestReactiveSpringApplication in 3.741 seconds (process running for 4.209)
+2025-08-21T12:08:34.908+05:30  INFO 25852 --- [test-reactive-spring] [SpringApplicationShutdownHook] o.s.b.w.embedded.netty.GracefulShutdown  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-21T12:08:34.910+05:30  INFO 25852 --- [test-reactive-spring] [netty-shutdown] o.s.b.w.embedded.netty.GracefulShutdown  : Graceful shutdown complete
+2025-08-21T12:08:40.631+05:30  INFO 21612 --- [test-reactive-spring] [main] c.e.t.TestReactiveSpringApplication      : Starting TestReactiveSpringApplication using Java 17.0.12 with PID 21612 (C:\Users\Satheesh.Dharmalinga\OneDrive - InfoVision, Inc\SATHEESHD\WORKSPACE\test-reactive-spring\target\classes started by Satheesh.Dharmalinga in C:\Users\Satheesh.Dharmalinga\OneDrive - InfoVision, Inc\SATHEESHD\WORKSPACE\test-reactive-spring)
+2025-08-21T12:08:40.635+05:30  INFO 21612 --- [test-reactive-spring] [main] c.e.t.TestReactiveSpringApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-21T12:08:41.234+05:30  INFO 21612 --- [test-reactive-spring] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-08-21T12:08:41.344+05:30  INFO 21612 --- [test-reactive-spring] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104 ms. Found 1 R2DBC repository interface.
+2025-08-21T12:08:43.041+05:30  INFO 21612 --- [test-reactive-spring] [main] efaultSchemaResourceGraphQlSourceBuilder : Loaded 1 resource(s) in the GraphQL schema.
+2025-08-21T12:08:43.377+05:30  INFO 21612 --- [test-reactive-spring] [main] o.s.b.a.g.GraphQlAutoConfiguration       : GraphQL schema inspection:
+	Unmapped fields: {}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2025-08-21T12:08:43.396+05:30  INFO 21612 --- [test-reactive-spring] [main] .b.a.g.r.GraphQlWebFluxAutoConfiguration : GraphQL endpoint HTTP POST /graphql
+2025-08-21T12:08:43.897+05:30  INFO 21612 --- [test-reactive-spring] [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080 (http)
+2025-08-21T12:08:43.934+05:30  INFO 21612 --- [test-reactive-spring] [main] c.e.t.TestReactiveSpringApplication      : Started TestReactiveSpringApplication in 3.883 seconds (process running for 4.397)
+2025-08-21T12:09:46.162+05:30  INFO 21612 --- [test-reactive-spring] [SpringApplicationShutdownHook] o.s.b.w.embedded.netty.GracefulShutdown  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-21T12:09:46.168+05:30  INFO 21612 --- [test-reactive-spring] [netty-shutdown] o.s.b.w.embedded.netty.GracefulShutdown  : Graceful shutdown complete
+2025-08-21T12:09:50.685+05:30  INFO 36856 --- [test-reactive-spring] [main] c.e.t.TestReactiveSpringApplication      : Starting TestReactiveSpringApplication using Java 17.0.12 with PID 36856 (C:\Users\Satheesh.Dharmalinga\OneDrive - InfoVision, Inc\SATHEESHD\WORKSPACE\test-reactive-spring\target\classes started by Satheesh.Dharmalinga in C:\Users\Satheesh.Dharmalinga\OneDrive - InfoVision, Inc\SATHEESHD\WORKSPACE\test-reactive-spring)
+2025-08-21T12:09:50.689+05:30  INFO 36856 --- [test-reactive-spring] [main] c.e.t.TestReactiveSpringApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-21T12:09:51.272+05:30  INFO 36856 --- [test-reactive-spring] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2025-08-21T12:09:51.405+05:30  INFO 36856 --- [test-reactive-spring] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127 ms. Found 1 R2DBC repository interface.
+2025-08-21T12:09:53.149+05:30  INFO 36856 --- [test-reactive-spring] [main] efaultSchemaResourceGraphQlSourceBuilder : Loaded 1 resource(s) in the GraphQL schema.
+2025-08-21T12:09:53.413+05:30  INFO 36856 --- [test-reactive-spring] [main] o.s.b.a.g.GraphQlAutoConfiguration       : GraphQL schema inspection:
+	Unmapped fields: {}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2025-08-21T12:09:53.431+05:30  INFO 36856 --- [test-reactive-spring] [main] .b.a.g.r.GraphQlWebFluxAutoConfiguration : GraphQL endpoint HTTP POST /graphql
+2025-08-21T12:09:53.891+05:30  INFO 36856 --- [test-reactive-spring] [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080 (http)
+2025-08-21T12:09:53.910+05:30  INFO 36856 --- [test-reactive-spring] [main] c.e.t.TestReactiveSpringApplication      : Started TestReactiveSpringApplication in 3.793 seconds (process running for 4.272)
+2025-08-21T12:11:03.889+05:30  INFO 36856 --- [test-reactive-spring] [SpringApplicationShutdownHook] o.s.b.w.embedded.netty.GracefulShutdown  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-21T12:11:03.892+05:30  INFO 36856 --- [test-reactive-spring] [netty-shutdown] o.s.b.w.embedded.netty.GracefulShutdown  : Graceful shutdown complete

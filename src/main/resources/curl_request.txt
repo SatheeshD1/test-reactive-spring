@@ -1,0 +1,19 @@
+curl 'https://www.dummy.com/dapi/auth/otp-verify' \
+  -H '__fetch_req__: true' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json' \
+  -b '__SW=dmTba52yIrpQnTRESUv2aXxKKx-c8jYF; _guest_tid=e7b902f0-ca4b-4f8b-9670-68ff0d30ef41; _device_id=a8912b90-ea8c-6811-d9ae-7742cda9d23a; _sid=oracf2ad-df0d-4bde-b59e-6fafff7d1b5e; _gcl_au=1.1.1068316120.1766682438; _ga=GA1.2.55447737.1766682438; _gid=GA1.2.654871951.1766682438; userLocation={%22lat%22:%2211.22030%22%2C%22lng%22:%2278.16630%22%2C%22address%22:%22%22%2C%22area%22:%22%22%2C%22showUserDefaultAddressHint%22:false}; fontsLoaded=1; aws-waf-token=4e7d8a38-807a-49bd-8220-ffdfa94317fd:HgoAZYZ3eXKyAAAA:ChgYFfILudzJme2n6CVhFsxReZEf8/1CVr/bSg8PPP93YQLjK86hXL+EaYH8DuXF++Y9lmYDu+YFKxP4qbZSqGzEFw8TecQEeryvPt1AMkOXu2Qw46zEQnPvcW/KF/Ljtb5HhuvfWfLU23ELnd1XZj9oU8TFuvbXtKlJZ54o6Uiy5gOO7pSDD4qt93BdI1atRLhtx0wuLwALmwxLE3xH0+GQgatUg7y+EloEQ1Am5wKa6SamCj6o; _ga_34JYJ0BCRN=GS2.1.s1766682438$o1$g1$t1766682564$j60$l0$h0; _ga_YE38MFJRBZ=GS2.1.s1766682438$o1$g1$t1766682564$j60$l0$h0' \
+  -H 'origin: https://www.swiggy.com' \
+  -H 'platform: dweb' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.swiggy.com/restaurants' \
+  -H 'sec-ch-ua: "Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36' \
+  -H 'user-id: 0' \
+  --data-raw '{"otp":"__OTP_PLACEHOLDER__","_csrf":"VFn3fwlV7wLp-h_nXvgN8_JEFeJP1mtb3H8_WfZg"}'

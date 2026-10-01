@@ -1,0 +1,32 @@
+type Employee{
+    empId: ID,
+    firstName: String
+    lastName: String
+    ctryCd: String
+}
+
+input MessageInput {
+    name: String
+    role: String
+    ctryCd: String
+}
+
+input EmployeeInput{
+    empId: ID,
+    firstName: String
+    lastName: String
+    ctryCd: String
+}
+
+type Query {
+    getLimited(limit: Int): [Employee]
+    search(employee: EmployeeInput): [Employee]
+}
+
+type Mutation {
+    post(message: MessageInput): Boolean
+}
+
+type Subscription {
+    searchStream(employee: EmployeeInput): Employee
+}
